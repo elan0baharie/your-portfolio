@@ -5,6 +5,9 @@ h1 {
   background-color: #def5f7;
   padding: 15px;
   padding-left: 25px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h3 {
@@ -14,6 +17,10 @@ h3 {
 
 strong {
   font-size: 15pt;
+}
+
+em {
+
 }
 
 hr {
@@ -27,6 +34,9 @@ div.banner_color {
   height: 4px;
   margin-bottom: 10px;
   opacity: 0.4;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #bannertext {
