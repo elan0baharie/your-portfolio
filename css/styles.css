@@ -1,14 +1,39 @@
+h1 {
+  font-size: 32pt;
+  font-family: serif;
+  border: 4px double #076ec1;
+  background-color: #def5f7;
+  padding: 15px;
+  padding-left: 25px;
+}
+
+h3 {
+  padding-left: 15px;
+  font-size: 15pt;
+}
+
+strong {
+  font-size: 15pt;
+}
+
+hr {
+    border-color: #2c5bf7;
+}
+
 div.banner_color {
   background-image: url("../img/bluelight.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 4px;
   margin-bottom: 10px;
+  opacity: 0.4;
 }
 
-.leftbar {
-  height: 100%;
-  background-color: #b3bccc;
+#bannertext {
+  font-family: cursive;
+  font-weight: 100;
+  color: #3b3d3f;
+  font-size: 14pt;
 }
 
 #photo {
@@ -24,10 +49,37 @@ div.banner_color {
   background-image: url("../img/bckgimg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  border: 3px solid #253272;
+  border: 2px solid #253272;
   border-radius: 5px;
 }
 
 .col-md-3 {
   padding: 10px;
+}
+
+.personal {
+  margin: 4px;
+}
+
+body {
+  background-color: #e0e5e5;
+}
+
+.well {
+  border: 3px solid #c6c8ce;
+  border-radius: 3%;
+  display: inline-block;
+  width: auto;
+  background-color: #d0d6dd;
+}
+
+.panel {
+  background-color: #fcfce0;
+  padding: 20px;
+}
+.panel-title {
+  padding-left: 10px;
+  background-color: #e5e5b0;
+  border: 2px solid #919168;
+  margin-bottom: 10px;
 }
