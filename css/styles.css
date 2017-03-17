@@ -1,0 +1,33 @@
+div.banner_color {
+  background-image: url("../img/bluelight.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 4px;
+  margin-bottom: 10px;
+}
+
+.leftbar {
+  height: 100%;
+  background-color: #b3bccc;
+}
+
+#photo {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  border: 2px solid #87a6c6;
+}
+
+.curtain {
+  background-image: url("../img/bckgimg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid #253272;
+  border-radius: 5px;
+}
+
+.col-md-3 {
+  padding: 10px;
+}
